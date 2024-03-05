@@ -1,0 +1,96 @@
+.App{  
+  position: relative;
+  margin-top:5%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Colum{
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  border: 2px solid floralwhite;
+  padding: 55px ;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.wrap-input {
+  width: 70%;
+  position: relative;
+  margin-bottom: 37px;
+  border-radius: 7px;
+  overflow: hidden;
+  font-size: 15px;
+  background: #fff;
+  border-style: hidden;
+  border: solid 2px #e68ee7;
+}
+
+.titulo{
+  top:10%;
+}
+
+.cont{
+  color: #312f2f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.perguntas div {
+  display: flex;
+  margin-bottom: 10px;  
+}
+
+.perguntas p {
+ font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  font-size: 115%;
+  text-align: justify;
+  color: #312f2f;
+}
+
+.perguntas input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.container-Finalizar-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+  align-items: center; 
+}
+
+.Finalizar-form-btn{
+  margin-top: 5%;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50px;
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(to left, #b9749a, #b721ff);
+  background: -o-linear-gradient(to left, #b9749a, #b721ff);
+  background: -moz-linear-gradient(to left, #b9749a, #b721ff);
+  background: linear-gradient(to left, #b9749a, #b721ff); 
+}
+
+.login-form-btn:hover {
+  cursor: pointer;
+}
+
+.alert{
+  top: -15px;
+  font-size: 120%;
+  color: #fa0b03;
+}
